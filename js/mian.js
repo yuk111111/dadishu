@@ -17,7 +17,7 @@ $(function() {
 
 // 给游戏限制一个运行的时间
 // var gemeTime = $(".timeNum").text();
-var gemeTime = "60";
+var gemeTime = "600";
 var s = 0;
 var BtnOn;
 // 随机函数
