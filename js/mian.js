@@ -27,7 +27,7 @@ function rand(min, max) {
 }
 // var secs = rand(800, 1000);
 var secs = rand(1000, 3000);
-var stay = rand(1500, 2500);
+var stay = rand(15000, 25000);
 // var stay = rand(1500, 2050);
 // 时间倒计时函数
 function timer(intDiff) {
