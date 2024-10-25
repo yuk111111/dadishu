@@ -17,7 +17,7 @@ $(function() {
 
 // 给游戏限制一个运行的时间
 // var gemeTime = $(".timeNum").text();
-var gemeTime = "30";
+var gemeTime = "60";
 var s = 0;
 var BtnOn;
 // 随机函数
@@ -26,8 +26,8 @@ function rand(min, max) {
 	return Math.round(Math.random() * (max - min) + min);
 }
 // var secs = rand(800, 1000);
-var secs = rand(500, 800);
-var stay = rand(150, 250);
+var secs = rand(1000, 3000);
+var stay = rand(1500, 2500);
 // var stay = rand(1500, 2050);
 // 时间倒计时函数
 function timer(intDiff) {
